@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'Printculator' target in the 'Printculator' project
+//
+
+#ifdef __OBJC__
+	#import <Cocoa/Cocoa.h>
+#endif

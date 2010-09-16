@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Price Per Fold</key>
+	<real>0.3</real>
+	<key>Price Per Trim</key>
+	<string>0.3</string>
+	<key>Print Costs</key>
+	<dict>
+		<key>No Color</key>
+		<integer>0</integer>
+		<key>1 Color</key>
+		<real>0.1</real>
+		<key>2 Colors</key>
+		<real>0.2</real>
+		<key>3 Colors</key>
+		<real>0.3</real>
+		<key>4 Colors</key>
+		<real>0.4</real>
+		<key>5 Colors</key>
+		<real>0.5</real>
+	</dict>
+	<key>Price Per Sheet</key>
+	<integer>1</integer>
+	<key>Paper Types</key>
+	<dict>
+		<key>Glossy 300g</key>
+		<real>3.5</real>
+		<key>Matte 300g</key>
+		<real>3.4</real>
+	</dict>
+	<key>Paper Formats</key>
+	<dict>
+		<key>A2</key>
+		<integer>1</integer>
+		<key>A3</key>
+		<integer>2</integer>
+		<key>A4</key>
+		<integer>4</integer>
+		<key>A5</key>
+		<integer>8</integer>
+		<key>A6</key>
+		<integer>16</integer>
+		<key>A7</key>
+		<integer>32</integer>
+	</dict>
+</dict>
+</plist>

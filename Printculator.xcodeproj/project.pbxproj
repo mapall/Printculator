@@ -1,0 +1,297 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		930DB39D1238EF0500EE2CD6 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 930DB39C1238EF0500EE2CD6 /* Cocoa.framework */; };
+		930DB3A21238EF0500EE2CD6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 930DB3A01238EF0500EE2CD6 /* InfoPlist.strings */; };
+		930DB3A41238EF0500EE2CD6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 930DB3A31238EF0500EE2CD6 /* main.m */; };
+		930DB3A71238EF0500EE2CD6 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 930DB3A51238EF0500EE2CD6 /* MainMenu.xib */; };
+		930DB3AA1238EF0500EE2CD6 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 930DB3A81238EF0500EE2CD6 /* Credits.rtf */; };
+		930DB3AD1238EF0500EE2CD6 /* PrintculatorAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 930DB3AC1238EF0500EE2CD6 /* PrintculatorAppDelegate.m */; };
+		930DB3B91238FACF00EE2CD6 /* MainWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 930DB3B81238FACF00EE2CD6 /* MainWindowController.m */; };
+		934E0759123A3C9500D4FD79 /* costs.plist in Resources */ = {isa = PBXBuildFile; fileRef = 934E0758123A3C9500D4FD79 /* costs.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		930DB3991238EF0500EE2CD6 /* Printculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Printculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		930DB39C1238EF0500EE2CD6 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		930DB39E1238EF0500EE2CD6 /* Printculator-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Printculator-Info.plist"; sourceTree = "<group>"; };
+		930DB39F1238EF0500EE2CD6 /* Printculator_Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Printculator_Prefix.pch; sourceTree = "<group>"; };
+		930DB3A11238EF0500EE2CD6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		930DB3A31238EF0500EE2CD6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		930DB3A61238EF0500EE2CD6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		930DB3A91238EF0500EE2CD6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		930DB3AB1238EF0500EE2CD6 /* PrintculatorAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrintculatorAppDelegate.h; sourceTree = "<group>"; };
+		930DB3AC1238EF0500EE2CD6 /* PrintculatorAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PrintculatorAppDelegate.m; sourceTree = "<group>"; };
+		930DB3B71238FACF00EE2CD6 /* MainWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainWindowController.h; sourceTree = "<group>"; };
+		930DB3B81238FACF00EE2CD6 /* MainWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainWindowController.m; sourceTree = "<group>"; };
+		934E0758123A3C9500D4FD79 /* costs.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = costs.plist; sourceTree = "<group>"; };
+		934E0761123A443500D4FD79 /* ConstantsAndMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConstantsAndMacros.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		930DB3961238EF0500EE2CD6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				930DB39D1238EF0500EE2CD6 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		930DB38A1238EF0500EE2CD6 = {
+			isa = PBXGroup;
+			children = (
+				930DB3911238EF0500EE2CD6 /* Classes */,
+				930DB3921238EF0500EE2CD6 /* Other Sources */,
+				930DB3931238EF0500EE2CD6 /* Resources */,
+				930DB3941238EF0500EE2CD6 /* Frameworks */,
+				930DB39A1238EF0500EE2CD6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		930DB3911238EF0500EE2CD6 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				930DB3AB1238EF0500EE2CD6 /* PrintculatorAppDelegate.h */,
+				930DB3AC1238EF0500EE2CD6 /* PrintculatorAppDelegate.m */,
+				930DB3B71238FACF00EE2CD6 /* MainWindowController.h */,
+				930DB3B81238FACF00EE2CD6 /* MainWindowController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		930DB3921238EF0500EE2CD6 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				934E0761123A443500D4FD79 /* ConstantsAndMacros.h */,
+				930DB39F1238EF0500EE2CD6 /* Printculator_Prefix.pch */,
+				930DB3A31238EF0500EE2CD6 /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		930DB3931238EF0500EE2CD6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				934E0758123A3C9500D4FD79 /* costs.plist */,
+				930DB39E1238EF0500EE2CD6 /* Printculator-Info.plist */,
+				930DB3A01238EF0500EE2CD6 /* InfoPlist.strings */,
+				930DB3A51238EF0500EE2CD6 /* MainMenu.xib */,
+				930DB3A81238EF0500EE2CD6 /* Credits.rtf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		930DB3941238EF0500EE2CD6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				930DB39C1238EF0500EE2CD6 /* Cocoa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		930DB39A1238EF0500EE2CD6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				930DB3991238EF0500EE2CD6 /* Printculator.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		930DB3981238EF0500EE2CD6 /* Printculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 930DB3B01238EF0500EE2CD6 /* Build configuration list for PBXNativeTarget "Printculator" */;
+			buildPhases = (
+				930DB3951238EF0500EE2CD6 /* Sources */,
+				930DB3961238EF0500EE2CD6 /* Frameworks */,
+				930DB3971238EF0500EE2CD6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Printculator;
+			productName = Printculator;
+			productReference = 930DB3991238EF0500EE2CD6 /* Printculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		930DB38C1238EF0500EE2CD6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = uDesign.sk;
+			};
+			buildConfigurationList = 930DB38F1238EF0500EE2CD6 /* Build configuration list for PBXProject "Printculator" */;
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 930DB38A1238EF0500EE2CD6;
+			productRefGroup = 930DB39A1238EF0500EE2CD6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				930DB3981238EF0500EE2CD6 /* Printculator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		930DB3971238EF0500EE2CD6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				930DB3A21238EF0500EE2CD6 /* InfoPlist.strings in Resources */,
+				930DB3A71238EF0500EE2CD6 /* MainMenu.xib in Resources */,
+				930DB3AA1238EF0500EE2CD6 /* Credits.rtf in Resources */,
+				934E0759123A3C9500D4FD79 /* costs.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		930DB3951238EF0500EE2CD6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				930DB3A41238EF0500EE2CD6 /* main.m in Sources */,
+				930DB3AD1238EF0500EE2CD6 /* PrintculatorAppDelegate.m in Sources */,
+				930DB3B91238FACF00EE2CD6 /* MainWindowController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		930DB3A01238EF0500EE2CD6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				930DB3A11238EF0500EE2CD6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		930DB3A51238EF0500EE2CD6 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				930DB3A61238EF0500EE2CD6 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		930DB3A81238EF0500EE2CD6 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				930DB3A91238EF0500EE2CD6 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		930DB3AE1238EF0500EE2CD6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+			};
+			name = Debug;
+		};
+		930DB3AF1238EF0500EE2CD6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+			};
+			name = Release;
+		};
+		930DB3B11238EF0500EE2CD6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Printculator_Prefix.pch;
+				INFOPLIST_FILE = "Printculator-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = Printculator;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		930DB3B21238EF0500EE2CD6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Printculator_Prefix.pch;
+				INFOPLIST_FILE = "Printculator-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = Printculator;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		930DB38F1238EF0500EE2CD6 /* Build configuration list for PBXProject "Printculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				930DB3AE1238EF0500EE2CD6 /* Debug */,
+				930DB3AF1238EF0500EE2CD6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		930DB3B01238EF0500EE2CD6 /* Build configuration list for PBXNativeTarget "Printculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				930DB3B11238EF0500EE2CD6 /* Debug */,
+				930DB3B21238EF0500EE2CD6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 930DB38C1238EF0500EE2CD6 /* Project object */;
+}
