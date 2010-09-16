@@ -41,6 +41,7 @@
 	
 	NSDecimalMultiply(&foldsPrice, &folds, &pricePerFold, NSRoundPlain);
 	NSDecimalMultiply(&foldsPrice, &foldsPrice, &quantity, NSRoundPlain);
+	NSDecimalAdd(&totalPrice, &totalPrice, &foldsPrice, NSRoundPlain);
 	NSLog(@"Folds price %@", [NSDecimalNumber decimalNumberWithDecimal:foldsPrice]);
 	
 	NSDecimal fixedExpenses = [[NSDecimalNumber decimalNumberWithString:[fixedExpensesTextField stringValue]] decimalValue];
